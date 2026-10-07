@@ -1,0 +1,14 @@
+interface:
+  display_name: Nobel Prize Portrait
+  short_description: Turn a person photo into an artistic Nobel portrait
+  default_prompt: Use $nobel-prize-portrait to turn this person photo into an artistic
+    Nobel Prize announcement portrait.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
